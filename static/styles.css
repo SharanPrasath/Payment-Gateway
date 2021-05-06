@@ -1,0 +1,157 @@
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.navbar-custom {
+  background-color: #66FCF1;
+}
+
+strong {
+}
+i {
+  color: 474343;
+}
+
+html ,body {
+  background-color: #000000;
+  /* background-image: url(https://images.unsplash.com/photo-1475257026007-0753d5429e10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); */
+}
+#footer {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1%;
+
+  padding-right: 15rem;
+  padding-left: 15rem;
+  background-color: #66FCF1;
+}
+
+.iconf {
+  color: #808080;
+  width: 10%;
+  padding: 1%;
+  font-size: 30px;
+}
+.profile-card-2 {
+    max-width: 300px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+.profile-username {
+  padding: 2%;
+}
+hr {
+  width: 100px;
+  text-align: center;
+  margin-left: 45%;
+}
+.mycol {
+  background-color: #000000 ;
+  background-image: url(myphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: 2100px;
+
+}
+.btn {
+  font-family: "Montserrat";
+  font-weight: Bold;
+}
+
+.cardend {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.text-center {
+  font-family: "Montserrat";
+  font-size: 7rem;
+  color: #66FCF1;
+}
+.download-button {
+  font-weight: bold;
+}
+.footer {
+  padding-top: 2rem;
+}
+body {
+    background: #f5f5f5
+}
+
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+.display-6 {
+font-weight:bold;
+}
