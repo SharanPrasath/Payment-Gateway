@@ -1,1 +1,1 @@
-#Payment-Gateway
+PAYMENT GATEWAY
