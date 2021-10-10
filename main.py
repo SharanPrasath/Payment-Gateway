@@ -20,12 +20,6 @@ def contact():
     return render_template("contact.html")
 
 
-def send_message(name,email,phone,msg):
-    message = f"{name} has sent a message on your Website.\nFrom,\nEmail : {email},\nPhone : {phone}\nmessage  : {msg}"
-    with smtplib.SMTP("smtp.gmail.com") as connection:
-        connection.starttls()
-        connection.login(OWN_EMAIL,OWN_PASSWORD)
-        connection.sendmail(from_addr=OWN_EMAIL,to_addrs=OWN_EMAIL,msg=message)
 
 
 @app.route("/payment", methods = ["GET", "POST"])
